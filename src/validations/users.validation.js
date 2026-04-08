@@ -1,1 +1,1 @@
-export { updateUserSchema, userIdSchema } from './user.validation.js'
+export { updateUserSchema, userIdSchema } from './user.validation.js';

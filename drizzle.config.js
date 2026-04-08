@@ -11,11 +11,11 @@ if (process.env.ENV_FILE) {
   }
 }
 
-export default{
-  schema:'./src/models/*.js',
-  out:'./drizzle',
+export default {
+  schema: './src/models/*.js',
+  out: './drizzle',
   dialect: 'postgresql',
-  dbCredentials:{
-    url:process.env.DATABASE_URL,
-  }
+  dbCredentials: {
+    url: process.env.DATABASE_URL,
+  },
 };
