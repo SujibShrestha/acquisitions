@@ -1,0 +1,1 @@
+export { updateUserSchema, userIdSchema } from './user.validation.js'
